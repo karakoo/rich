@@ -1,6 +1,10 @@
 from contextlib import suppress
-import re
-from typing import Iterable, NamedTuple
+from typing import (
+    Iterable,
+    NamedTuple,
+)
+
+import regex as re
 
 from .color import Color
 from .style import Style

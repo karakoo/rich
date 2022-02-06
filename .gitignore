@@ -114,3 +114,7 @@ venv.bak/
 .mypy_cache/
 .idea/
 test/
+*.srctrlbm
+*.srctrldb
+*.srctrldb_tmp
+*.srctrlprj

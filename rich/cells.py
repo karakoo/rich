@@ -1,6 +1,10 @@
 from functools import lru_cache
-import re
-from typing import Dict, List
+from typing import (
+    Dict,
+    List,
+)
+
+import regex as re
 
 from ._cell_widths import CELL_WIDTHS
 from ._lru_cache import LRUCache

@@ -1,5 +1,10 @@
-from typing import Any, Callable, cast, Set, TYPE_CHECKING
 from inspect import isclass
+from typing import (
+    Any,
+    cast,
+    Set,
+    TYPE_CHECKING,
+)
 
 if TYPE_CHECKING:
     from rich.console import RenderableType

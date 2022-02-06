@@ -1,6 +1,17 @@
-from typing import Any, Callable, Dict, Iterable, List, TYPE_CHECKING, Union
+from typing import (
+    Callable,
+    Dict,
+    Iterable,
+    List,
+    TYPE_CHECKING,
+    Union,
+)
 
-from .segment import ControlCode, ControlType, Segment
+from .segment import (
+    ControlCode,
+    ControlType,
+    Segment,
+)
 
 if TYPE_CHECKING:
     from .console import Console, ConsoleOptions, RenderResult

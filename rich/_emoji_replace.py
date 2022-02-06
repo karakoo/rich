@@ -1,5 +1,5 @@
 from typing import Callable, Match, Optional
-import re
+import regex as re
 
 from ._emoji_codes import EMOJI
 
