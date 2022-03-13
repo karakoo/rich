@@ -1142,6 +1142,7 @@ class Console:
             home (bool, optional): Also move the cursor to 'home' position. Defaults to True.
         """
         if home:
+            breakpoint()
             self.control(Control.clear(), Control.home())
         else:
             self.control(Control.clear())
@@ -1606,6 +1607,7 @@ class Console:
             crop: bool = True,
             soft_wrap: Optional[bool] = None,
             new_line_start: bool = False,
+            file: Optional[IO[str]] = None,
     ) -> None:
         """Print to the console.
 

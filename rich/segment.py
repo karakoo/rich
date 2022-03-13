@@ -63,14 +63,15 @@ ControlCode = Union[
 ]
 
 
+# noinspection PyUnresolvedReferences
 @rich_repr()
 class Segment(NamedTuple):
     """一段具有相关样式的文本。段由控制台渲染过程生成，并最终转换为要写入终端的字符串。
 
     Args:
-        text (str): A piece of text.
-        style (:class:`~rich.style.Style`, optional): An optional style to apply to the text.
-        control (Tuple[ControlCode..], optional): Optional sequence of control codes.
+        text (str): 一段文字
+        style (:class:`~rich.style.Style`, optional): 应用于文本的可选样式
+        control (Tuple[ControlCode..], optional): 控制代码的可选序列
     """
 
     text: str = ""
